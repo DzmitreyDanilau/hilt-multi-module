@@ -1,0 +1,21 @@
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    google()
+    mavenCentral()
+  }
+}
+dependencyResolutionManagement {
+  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+  repositories {
+    google()
+    mavenCentral()
+  }
+}
+rootProject.name = "HiltDemo"
+include ':app'
+include ':feature_1:feature1'
+include ':library1'
+include ':feature_1:feature_lib'
+include ':base_interface_lib'
+include ':feature_1:app'
