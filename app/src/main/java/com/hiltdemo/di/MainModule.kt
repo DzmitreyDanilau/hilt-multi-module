@@ -10,6 +10,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Inject
 
+// In App Module
 @Module
 @InstallIn(SingletonComponent::class)
 class MainModule {
@@ -19,8 +20,7 @@ class MainModule {
   }
 }
 
-class ShowToastOnclick @Inject constructor(private val context: Context) :
-  BaseInterface {
+class ShowToastOnclick @Inject constructor(private val context: Context) : BaseInterface {
   override fun showPopup() {
     Toast.makeText(context, "APP MODULE IMPL POPUP", Toast.LENGTH_LONG).show()
   }
