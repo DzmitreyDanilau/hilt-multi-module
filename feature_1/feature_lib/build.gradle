@@ -11,6 +11,9 @@ java {
 dependencies {
   implementation project(":library1")
   implementation project(':base_interface_lib')
+  implementation project(':common')
+  implementation project(':firebase:api')
+  implementation project(':network')
 
   implementation 'javax.inject:javax.inject:1'
 }

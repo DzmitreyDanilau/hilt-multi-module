@@ -22,6 +22,10 @@ fun FeatureOneScreen(
       Text(text = "Show popup, common")
     }
 
+    Button(onClick = { viewModel.printValueAuthService() }) {
+      Text(text = "Show popup, auth service")
+    }
+
     Button(onClick = { navController.navigateUp() }) {
       Text(text = "Navigate back to Main")
     }

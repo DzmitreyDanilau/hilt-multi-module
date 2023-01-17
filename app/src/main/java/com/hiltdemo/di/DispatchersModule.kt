@@ -1,5 +1,6 @@
 package com.hiltdemo.di
 
+import com.hiltDemo.common.IO
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,9 +15,7 @@ class DispatchersModule {
 
   @Provides
   @Singleton
+  @IO
   fun provideIODispatcher() = Dispatchers.IO
 }
 
-@Qualifier
-@Retention(AnnotationRetention.BINARY)
-annotation class IO

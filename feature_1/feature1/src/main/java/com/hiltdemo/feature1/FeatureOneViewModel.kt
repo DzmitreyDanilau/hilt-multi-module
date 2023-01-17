@@ -15,4 +15,8 @@ class FeatureOneViewModel @Inject constructor(
   fun printValueFromBaseInterface() {
     dependency.getBaseInterfaceValue()
   }
+
+  fun printValueAuthService() {
+    dependency.getBaseInterfaceValue()
+  }
 }
