@@ -13,7 +13,7 @@ dependencies {
   implementation project(':base_interface_lib')
   implementation project(':common')
   implementation project(':firebase:api')
-  implementation project(':network')
+  implementation project(':rest:network')
 
   implementation 'javax.inject:javax.inject:1'
 }

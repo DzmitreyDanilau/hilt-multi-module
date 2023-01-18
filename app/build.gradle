@@ -58,6 +58,7 @@ dependencies {
   implementation project(":base_interface_lib")
   implementation project(":firebase:firebase_module")
   implementation project(":common")
+  implementation project(":rest:network")
 
   implementation('androidx.hilt:hilt-navigation-compose:1.0.0')
 

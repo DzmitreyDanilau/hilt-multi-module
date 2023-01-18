@@ -21,7 +21,9 @@
             <option value="$PROJECT_DIR$/firebase/api" />
             <option value="$PROJECT_DIR$/firebase/firebase_module" />
             <option value="$PROJECT_DIR$/library1" />
-            <option value="$PROJECT_DIR$/network" />
+            <option value="$PROJECT_DIR$/rest" />
+            <option value="$PROJECT_DIR$/rest/api" />
+            <option value="$PROJECT_DIR$/rest/network" />
           </set>
         </option>
       </GradleProjectSettings>
